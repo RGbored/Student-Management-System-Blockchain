@@ -1,0 +1,5 @@
+client-test/node_modules
+node_modules
+.env
+server/.env
+server/node_modules

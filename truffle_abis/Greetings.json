@@ -1,0 +1,522 @@
+{
+  "contractName": "Greetings",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "number",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "greeting",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "multiply",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.4.26+commit.4563c3fc\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"number\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"greeting\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"multiply\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Greetings.sol\":\"Greetings\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Greetings.sol\":{\"keccak256\":\"0x7e2e8e9af6f933f94e0ae19ecff533de68c180d5fefe11bcc3010d510ed50ca8\",\"urls\":[\"bzzr://4441a52b6837af49cbd396db7165cf4e3fc3c0cdb8ee8cff099ab623d59b0462\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040805190810160405280601681526020017f48656c6c6f20576f726c642120486579205468657265000000000000000000008152506000908051906020019061004f929190610067565b50604660015534801561006157600080fd5b5061010c565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a857805160ff19168380011785556100d6565b828001600101855582156100d6579182015b828111156100d55782518255916020019190600101906100ba565b5b5090506100e391906100e7565b5090565b61010991905b808211156101055760008160009055506001016100ed565b5090565b90565b61021b8061011b6000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680638381f58a1461005c578063ef690cc014610087578063f3593cd014610117575b600080fd5b34801561006857600080fd5b50610071610142565b6040518082815260200191505060405180910390f35b34801561009357600080fd5b5061009c610148565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100dc5780820151818401526020810190506100c1565b50505050905090810190601f1680156101095780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561012357600080fd5b5061012c6101e6565b6040518082815260200191505060405180910390f35b60015481565b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101de5780601f106101b3576101008083540402835291602001916101de565b820191906000526020600020905b8154815290600101906020018083116101c157829003601f168201915b505050505081565b600060019050905600a165627a7a72305820aaf13d7efaafb0a1020935cba4d42328cac77996bb51d4cf691e59f98680685f0029",
+  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680638381f58a1461005c578063ef690cc014610087578063f3593cd014610117575b600080fd5b34801561006857600080fd5b50610071610142565b6040518082815260200191505060405180910390f35b34801561009357600080fd5b5061009c610148565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100dc5780820151818401526020810190506100c1565b50505050905090810190601f1680156101095780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561012357600080fd5b5061012c6101e6565b6040518082815260200191505060405180910390f35b60015481565b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101de5780601f106101b3576101008083540402835291602001916101de565b820191906000526020600020905b8154815290600101906020018083116101c157829003601f168201915b505050505081565b600060019050905600a165627a7a72305820aaf13d7efaafb0a1020935cba4d42328cac77996bb51d4cf691e59f98680685f0029",
+  "sourceMap": "61:205:1:-;;;85:49;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;163:2;139:26;;61:205;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:205:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "61:205:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;139:26;;8:9:-1;5:2;;;30:1;27;20:12;5:2;139:26:1;;;;;;;;;;;;;;;;;;;;;;;85:49;;8:9:-1;5:2;;;30:1;27;20:12;5:2;85:49:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;85:49:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;170:93;;8:9:-1;5:2;;;30:1;27;20:12;5:2;170:93:1;;;;;;;;;;;;;;;;;;;;;;;139:26;;;;:::o;85:49::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;170:93::-;210:4;230:1;223:8;;170:93;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.4.22;\r\n\r\ncontract Greetings {\r\n  string public greeting = \"Hello World! Hey There\";\r\n  uint256 public number = 70;\r\n  function multiply() public pure returns(uint) {\r\n    return 1;\r\n    // return 12*number;\r\n  }\r\n}\r\n",
+  "sourcePath": "C:\\Users\\rgbor\\OneDrive\\Documents\\blockchain\\contracts\\Greetings.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Greetings.sol",
+    "exportedSymbols": {
+      "Greetings": [
+        33
+      ]
+    },
+    "id": 34,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 18,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 33,
+        "linearizedBaseContracts": [
+          33
+        ],
+        "name": "Greetings",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 21,
+            "name": "greeting",
+            "nodeType": "VariableDeclaration",
+            "scope": 33,
+            "src": "85:49:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 19,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "85:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "48656c6c6f20576f726c642120486579205468657265",
+              "id": 20,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "110:24:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_b80baa885d48d314c1eae132908fe0aebf7b9c91cc461bbd7299849cccc3035a",
+                "typeString": "literal_string \"Hello World! Hey There\""
+              },
+              "value": "Hello World! Hey There"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 24,
+            "name": "number",
+            "nodeType": "VariableDeclaration",
+            "scope": 33,
+            "src": "139:26:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 22,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "139:7:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "3730",
+              "id": 23,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "163:2:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_70_by_1",
+                "typeString": "int_const 70"
+              },
+              "value": "70"
+            },
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 31,
+              "nodeType": "Block",
+              "src": "216:47:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "31",
+                    "id": 29,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "number",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "230:1:1",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_rational_1_by_1",
+                      "typeString": "int_const 1"
+                    },
+                    "value": "1"
+                  },
+                  "functionReturnParameters": 28,
+                  "id": 30,
+                  "nodeType": "Return",
+                  "src": "223:8:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 32,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "multiply",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 25,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "187:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 28,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 32,
+                  "src": "210:4:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 26,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "210:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "209:6:1"
+            },
+            "scope": 33,
+            "src": "170:93:1",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 34,
+        "src": "61:205:1"
+      }
+    ],
+    "src": "33:235:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Greetings.sol",
+      "exportedSymbols": {
+        "Greetings": [
+          33
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".22"
+          ]
+        },
+        "id": 18,
+        "name": "PragmaDirective",
+        "src": "33:24:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            33
+          ],
+          "name": "Greetings",
+          "scope": 34
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "greeting",
+              "scope": 33,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 19,
+                "name": "ElementaryTypeName",
+                "src": "85:6:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "48656c6c6f20576f726c642120486579205468657265",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"Hello World! Hey There\"",
+                  "value": "Hello World! Hey There"
+                },
+                "id": 20,
+                "name": "Literal",
+                "src": "110:24:1"
+              }
+            ],
+            "id": 21,
+            "name": "VariableDeclaration",
+            "src": "85:49:1"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "number",
+              "scope": 33,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 22,
+                "name": "ElementaryTypeName",
+                "src": "139:7:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "3730",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 70",
+                  "value": "70"
+                },
+                "id": 23,
+                "name": "Literal",
+                "src": "163:2:1"
+              }
+            ],
+            "id": 24,
+            "name": "VariableDeclaration",
+            "src": "139:26:1"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "multiply",
+              "payable": false,
+              "scope": 33,
+              "stateMutability": "pure",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 25,
+                "name": "ParameterList",
+                "src": "187:2:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 32,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint",
+                          "type": "uint256"
+                        },
+                        "id": 26,
+                        "name": "ElementaryTypeName",
+                        "src": "210:4:1"
+                      }
+                    ],
+                    "id": 27,
+                    "name": "VariableDeclaration",
+                    "src": "210:4:1"
+                  }
+                ],
+                "id": 28,
+                "name": "ParameterList",
+                "src": "209:6:1"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 28
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "31",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "number",
+                          "type": "int_const 1",
+                          "value": "1"
+                        },
+                        "id": 29,
+                        "name": "Literal",
+                        "src": "230:1:1"
+                      }
+                    ],
+                    "id": 30,
+                    "name": "Return",
+                    "src": "223:8:1"
+                  }
+                ],
+                "id": 31,
+                "name": "Block",
+                "src": "216:47:1"
+              }
+            ],
+            "id": 32,
+            "name": "FunctionDefinition",
+            "src": "170:93:1"
+          }
+        ],
+        "id": 33,
+        "name": "ContractDefinition",
+        "src": "61:205:1"
+      }
+    ],
+    "id": 34,
+    "name": "SourceUnit",
+    "src": "33:235:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.26+commit.4563c3fc.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x09E4b4b96c2cc92382152A63f579F1fC95C513F1",
+      "transactionHash": "0x738142ebe4fdeef6d981f4279e05266801c4631b623af7aeea319de40d69d669"
+    }
+  },
+  "schemaVersion": "3.4.15",
+  "updatedAt": "2023-12-02T12:51:18.343Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
